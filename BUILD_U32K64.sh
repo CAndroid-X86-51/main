@@ -1,8 +1,8 @@
-#!/bin/bash -x
+#!/bin/bash 
 FILE_MYDEFCONFIG=./my_defconfig
 . build/envsetup.sh
 lunch android_x86-eng
-cd kernel ; git checkout x86/kernel-4.0 ; cd ..
+##cd kernel ; git checkout x86/kernel-4.0 ; cd ..
 if [ ! -f "$FILE_MYDEFCONFIG" ] 
 then 
  echo CUSTOMIZE KERNEL CONFIG NOT EXISTING, BUILD ISOIMAGE BY DEFAULT
