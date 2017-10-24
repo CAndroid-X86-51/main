@@ -3994,6 +3994,7 @@ CONFIG_DRM_PANEL=y
 #
 # Display Panels
 #
+CONFIG_DRM_PANEL_SIMPLE=m
 
 #
 # Frame buffer Devices
